@@ -2,24 +2,28 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a7adc0b2-9e23-4e48-b540-6ba2b6f1b67a" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/assets/css/bootstrap.css" afterPath="$PROJECT_DIR$/src/main/webapp/assets/css/bootstrap.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/springapp/mvc/MainController.java" afterPath="$PROJECT_DIR$/src/main/java/com/springapp/mvc/MainController.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/charities.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/charities.jsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/templates/navbar.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/templates/navbar.jsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/previousprojects.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/previousprojects.jsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/projects.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/projects.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/templates/skeleton.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/templates/skeleton.jsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="BADProject.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="a7adc0b2-9e23-4e48-b540-6ba2b6f1b67a" time="1385826444252" ignored="false" />
+    <file path="/Dummy.txt" changelist="a7adc0b2-9e23-4e48-b540-6ba2b6f1b67a" time="1385827410712" ignored="false" />
     <file path="/pom.xml" changelist="a7adc0b2-9e23-4e48-b540-6ba2b6f1b67a" time="1385815119119" ignored="false" />
     <file path="/web.xml" changelist="a7adc0b2-9e23-4e48-b540-6ba2b6f1b67a" time="1385817727337" ignored="false" />
     <file path="/HelloController.java" changelist="a7adc0b2-9e23-4e48-b540-6ba2b6f1b67a" time="1385817771137" ignored="false" />
     <file path="/BADProject.iml" changelist="a7adc0b2-9e23-4e48-b540-6ba2b6f1b67a" time="1385818010956" ignored="false" />
     <file path="/hello.jsp" changelist="a7adc0b2-9e23-4e48-b540-6ba2b6f1b67a" time="1385822726102" ignored="false" />
-    <file path="/dummy.xml" changelist="a7adc0b2-9e23-4e48-b540-6ba2b6f1b67a" time="1385826785179" ignored="false" />
-    <file path="/navbar.jsp" changelist="a7adc0b2-9e23-4e48-b540-6ba2b6f1b67a" time="1385827027910" ignored="false" />
+    <file path="/dummy.xml" changelist="a7adc0b2-9e23-4e48-b540-6ba2b6f1b67a" time="1385827586039" ignored="false" />
+    <file path="/navbar.jsp" changelist="a7adc0b2-9e23-4e48-b540-6ba2b6f1b67a" time="1385827924225" ignored="false" />
+    <file path="/charities.jsp" changelist="a7adc0b2-9e23-4e48-b540-6ba2b6f1b67a" time="1385827614597" ignored="false" />
+    <file path="/projects.jsp" changelist="a7adc0b2-9e23-4e48-b540-6ba2b6f1b67a" time="1385827865276" ignored="false" />
+    <file path="/previousprojects.jsp" changelist="a7adc0b2-9e23-4e48-b540-6ba2b6f1b67a" time="1385827880391" ignored="false" />
+    <file path="/MainController.java" changelist="a7adc0b2-9e23-4e48-b540-6ba2b6f1b67a" time="1385828313916" ignored="false" />
+    <file path="/displayer.jsp" changelist="a7adc0b2-9e23-4e48-b540-6ba2b6f1b67a" time="1385828343614" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,15 +84,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="mvc-dispatcher-servlet.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/mvc-dispatcher-servlet.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="index.jsp" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/index.jsp">
           <provider selected="true" editor-type-id="text-editor">
@@ -98,19 +93,28 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="previousprojects.jsp" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/previousprojects.jsp">
+      <file leaf-file-name="projects.jsp" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/projects.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="26" selection-start="492" selection-end="492" vertical-scroll-proportion="-8.5">
+            <state line="13" column="10" selection-start="467" selection-end="467" vertical-scroll-proportion="-8.5">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="projects.jsp" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/projects.jsp">
+      <file leaf-file-name="previousprojects.jsp" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/previousprojects.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="18" selection-start="476" selection-end="476" vertical-scroll-proportion="0.7317881">
+            <state line="13" column="10" selection-start="475" selection-end="475" vertical-scroll-proportion="-8.192307">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="charities.jsp" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/charities.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="12" column="4" selection-start="392" selection-end="432" vertical-scroll-proportion="-7.8461537">
               <folding />
             </state>
           </provider>
@@ -125,15 +129,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="charities.jsp" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/charities.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="19" selection-start="478" selection-end="478" vertical-scroll-proportion="-9.153846">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="skeleton.jsp" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/templates/skeleton.jsp">
           <provider selected="true" editor-type-id="text-editor">
@@ -143,10 +138,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MainController.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="MainController.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/springapp/mvc/MainController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="3" selection-start="311" selection-end="311" vertical-scroll-proportion="0.0">
+            <state line="31" column="0" selection-start="986" selection-end="986" vertical-scroll-proportion="0.6103152">
               <folding />
             </state>
           </provider>
@@ -161,7 +156,7 @@
             <state />
           </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="55" selection-start="579" selection-end="579" vertical-scroll-proportion="-7.52">
+            <state line="15" column="27" selection-start="565" selection-end="565" vertical-scroll-proportion="-7.52">
               <folding />
             </state>
           </provider>
@@ -190,16 +185,18 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/springapp/mvc/HelloController.java" />
         <option value="$PROJECT_DIR$/BADProject.iml" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/hello.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/templates/navbar.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/assets/css/bootstrap.css" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/charities.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/templates/skeleton.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/previousprojects.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/charities.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/projects.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/previousprojects.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/templates/navbar.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/displayer.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/springapp/mvc/MainController.java" />
       </list>
     </option>
   </component>
@@ -489,6 +486,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\ian\IdeaProjects\BAD-Project\src\main\webapp\WEB-INF\pages" />
       <recent name="C:\Users\ian\IdeaProjects\BAD-Project\src\main\webapp\assets" />
     </key>
   </component>
@@ -561,6 +559,13 @@
       <option name="PASS_PARENT_ENVS" value="true" />
       <module name="" />
       <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugSession" factoryName="Remote" singleton="true">
+      <JSRemoteDebuggerConfigurationSettings>
+        <option name="engineId" />
+        <option name="fileUrl" />
+      </JSRemoteDebuggerConfigurationSettings>
       <method />
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
@@ -715,7 +720,11 @@
       <created>1385822918648</created>
       <updated>1385822918648</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="updated navbar, fixed the bug of jquery">
+      <created>1385827543190</created>
+      <updated>1385827543190</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -792,7 +801,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="updated navbar, fixed the bug of jquery" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -810,6 +819,7 @@
     <MESSAGE value="Bootstrap and Font awesome added" />
     <MESSAGE value="Bootstrap integration success" />
     <MESSAGE value="commit" />
+    <MESSAGE value="updated navbar, fixed the bug of jquery" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -819,13 +829,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="50" column="22" selection-start="1718" selection-end="1718" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/mvc-dispatcher-servlet.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="7" column="54" selection-start="505" selection-end="505" vertical-scroll-proportion="0.0">
@@ -868,46 +871,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/springapp/mvc/MainController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="3" selection-start="311" selection-end="311" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
-      <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleGeneralEditorProvider">
-        <state />
-      </provider>
-      <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorReferencesProvider">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="55" selection-start="579" selection-end="579" vertical-scroll-proportion="-7.52">
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorProvider">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/templates/navbar.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="33" selection-start="100" selection-end="100" vertical-scroll-proportion="-1.3076923">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/assets/css/bootstrap.css">
       <provider selected="true" editor-type-id="text-editor">
         <state line="7892" column="55" selection-start="145180" selection-end="145180" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/charities.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="19" selection-start="478" selection-end="478" vertical-scroll-proportion="-9.153846">
           <folding />
         </state>
       </provider>
@@ -926,16 +892,53 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/previousprojects.jsp">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/charities.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="26" selection-start="492" selection-end="492" vertical-scroll-proportion="-8.5">
+        <state line="12" column="4" selection-start="392" selection-end="432" vertical-scroll-proportion="-7.8461537">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/projects.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="18" selection-start="476" selection-end="476" vertical-scroll-proportion="0.7317881">
+        <state line="13" column="10" selection-start="467" selection-end="467" vertical-scroll-proportion="-8.5">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/previousprojects.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="10" selection-start="475" selection-end="475" vertical-scroll-proportion="-8.192307">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/templates/navbar.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="33" selection-start="100" selection-end="100" vertical-scroll-proportion="-1.3076923">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
+      <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleGeneralEditorProvider">
+        <state />
+      </provider>
+      <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorReferencesProvider">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="27" selection-start="565" selection-end="565" vertical-scroll-proportion="-7.52">
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorProvider">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/springapp/mvc/MainController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="31" column="0" selection-start="986" selection-end="986" vertical-scroll-proportion="0.6103152">
           <folding />
         </state>
       </provider>

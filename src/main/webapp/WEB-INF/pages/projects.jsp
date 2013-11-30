@@ -8,8 +8,10 @@
 </head>
 <body>
     <%@ include file="templates/navbar.jsp"%>
-    <h1>projects</h1>
-
+    <div class="container">
+        <br><br>
+        <h1>projects</h1>
+    </div>
     <script src="/assets/js/jquery.js"></script>
     <script src="/assets/js/bootstrap.min.js"></script>
 </body>
