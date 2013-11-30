@@ -10,7 +10,7 @@
     <%@ include file="templates/navbar.jsp"%>
     <h1>previousprojects</h1>
 
-    <script src="/assets/js/bootstrap.min.js"></script>
     <script src="/assets/js/jquery.js"></script>
+    <script src="/assets/js/bootstrap.min.js"></script>
 </body>
 </html>
