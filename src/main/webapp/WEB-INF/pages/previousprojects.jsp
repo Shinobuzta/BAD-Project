@@ -7,7 +7,7 @@
     <link href="/assets/css/font-awesome/css/font-awesome.min.css" rel="stylesheet">
 </head>
 <body>
-
+    <%@ include file="templates/navbar.jsp"%>
     <h1>previousprojects</h1>
 
     <script src="/assets/js/bootstrap.min.js"></script>
