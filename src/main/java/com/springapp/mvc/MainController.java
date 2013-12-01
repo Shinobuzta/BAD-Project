@@ -25,9 +25,20 @@ public class MainController {
         return "projects";
     }
 
+    @RequestMapping(value = "project/{id}", method = RequestMethod.GET)
+    public String showIndividualProject(@PathVariable("id") int id,ModelMap model){
+        model.addAttribute("id",id);
+        return "project";
+    }
+
     @RequestMapping(value = "charities", method = RequestMethod.GET)
     public String showCharities(ModelMap model){
         return "charities";
+    }
+
+    @RequestMapping(value = "errors/404", method = RequestMethod.GET)
+    public String show404Page(ModelMap model){
+        return "errorpages/page404";
     }
 
 }
