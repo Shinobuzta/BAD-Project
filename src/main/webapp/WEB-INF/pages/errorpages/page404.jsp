@@ -10,7 +10,7 @@
     <%@ include file="../templates/navbar.jsp"%>
     <div class="container">
         <br><br>
-        <h1>404 No Found</h1>
+        <h1>404 Not Found</h1>
     </div>
     <script src="/assets/js/jquery.js"></script>
     <script src="/assets/js/bootstrap.min.js"></script>

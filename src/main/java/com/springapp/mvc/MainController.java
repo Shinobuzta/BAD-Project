@@ -41,4 +41,9 @@ public class MainController {
         return "errorpages/page404";
     }
 
+    @RequestMapping(value = "errors/400", method = RequestMethod.GET)
+    public String show400Page(ModelMap model){
+        return "errorpages/page400";
+    }
+
 }
