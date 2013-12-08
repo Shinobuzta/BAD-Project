@@ -2,12 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a7adc0b2-9e23-4e48-b540-6ba2b6f1b67a" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/springapp/entities/CharitiesProject.java" afterPath="$PROJECT_DIR$/src/main/java/com/springapp/entities/CharitiesProject.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="BADProject.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="a7adc0b2-9e23-4e48-b540-6ba2b6f1b67a" time="1386490637712" ignored="false" />
+    <file path="/Dummy.txt" changelist="a7adc0b2-9e23-4e48-b540-6ba2b6f1b67a" time="1386491037039" ignored="false" />
     <file path="/pom.xml" changelist="a7adc0b2-9e23-4e48-b540-6ba2b6f1b67a" time="1385815119119" ignored="false" />
     <file path="/web.xml" changelist="a7adc0b2-9e23-4e48-b540-6ba2b6f1b67a" time="1385862254617" ignored="false" />
     <file path="/HelloController.java" changelist="a7adc0b2-9e23-4e48-b540-6ba2b6f1b67a" time="1385817771137" ignored="false" />
@@ -25,7 +24,7 @@
     <file path="/page404.jsp" changelist="a7adc0b2-9e23-4e48-b540-6ba2b6f1b67a" time="1385969887526" ignored="false" />
     <file path="/README.md" changelist="a7adc0b2-9e23-4e48-b540-6ba2b6f1b67a" time="1385969501558" ignored="false" />
     <file path="/persistence.xml" changelist="a7adc0b2-9e23-4e48-b540-6ba2b6f1b67a" time="1386337773613" ignored="false" />
-    <file path="/CharitiesProject.java" changelist="a7adc0b2-9e23-4e48-b540-6ba2b6f1b67a" time="1386345321071" ignored="false" />
+    <file path="/CharitiesProject.java" changelist="a7adc0b2-9e23-4e48-b540-6ba2b6f1b67a" time="1386491036150" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -107,7 +106,7 @@
       <file leaf-file-name="CharitiesProject.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/springapp/entities/CharitiesProject.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="34" column="38" selection-start="784" selection-end="784" vertical-scroll-proportion="0.68">
+            <state line="34" column="57" selection-start="784" selection-end="784" vertical-scroll-proportion="0.68">
               <folding />
             </state>
           </provider>
@@ -565,7 +564,11 @@
       <created>1386490801335</created>
       <updated>1386490801335</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="added CharitiesProject Classes,Hibernate">
+      <created>1386491045532</created>
+      <updated>1386491045532</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -773,7 +776,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/springapp/entities/CharitiesProject.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="38" selection-start="784" selection-end="784" vertical-scroll-proportion="0.68">
+        <state line="34" column="57" selection-start="784" selection-end="784" vertical-scroll-proportion="0.68">
           <folding />
         </state>
       </provider>
