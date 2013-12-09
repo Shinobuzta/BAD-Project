@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a7adc0b2-9e23-4e48-b540-6ba2b6f1b67a" name="Default" comment="added CharitiesProject Classes,">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/charities.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/charities.jsp" />
+    <list default="true" id="a7adc0b2-9e23-4e48-b540-6ba2b6f1b67a" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/springapp/entities/CharitiesProjectRepository.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="BADProject.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="a7adc0b2-9e23-4e48-b540-6ba2b6f1b67a" time="1386595279118" ignored="false" />
+    <file path="/Dummy.txt" changelist="a7adc0b2-9e23-4e48-b540-6ba2b6f1b67a" time="1386595841441" ignored="false" />
     <file path="/pom.xml" changelist="a7adc0b2-9e23-4e48-b540-6ba2b6f1b67a" time="1385815119119" ignored="false" />
     <file path="/web.xml" changelist="a7adc0b2-9e23-4e48-b540-6ba2b6f1b67a" time="1385862254617" ignored="false" />
     <file path="/HelloController.java" changelist="a7adc0b2-9e23-4e48-b540-6ba2b6f1b67a" time="1385817771137" ignored="false" />
@@ -26,6 +26,7 @@
     <file path="/README.md" changelist="a7adc0b2-9e23-4e48-b540-6ba2b6f1b67a" time="1385969501558" ignored="false" />
     <file path="/persistence.xml" changelist="a7adc0b2-9e23-4e48-b540-6ba2b6f1b67a" time="1386337773613" ignored="false" />
     <file path="/CharitiesProject.java" changelist="a7adc0b2-9e23-4e48-b540-6ba2b6f1b67a" time="1386491036150" ignored="false" />
+    <file path="/CharitiesProjectRepository.java" changelist="a7adc0b2-9e23-4e48-b540-6ba2b6f1b67a" time="1386596733226" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,10 +87,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="charities.jsp" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="charities.jsp" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/charities.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="40" selection-start="645" selection-end="645" vertical-scroll-proportion="0.33144477">
+            <state line="25" column="30" selection-start="1064" selection-end="1064" vertical-scroll-proportion="-9.076923">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CharitiesProjectRepository.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/springapp/entities/CharitiesProjectRepository.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="13" column="63" selection-start="342" selection-end="342" vertical-scroll-proportion="0.58311343">
               <folding />
             </state>
           </provider>
@@ -123,7 +133,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/previousprojects.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/templates/navbar.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/displayer.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/projects.jsp" />
@@ -139,6 +148,7 @@
         <option value="$PROJECT_DIR$/src/main/webapp/assets/META-INF/persistence.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/springapp/entities/CharitiesProject.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/charities.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/springapp/entities/CharitiesProjectRepository.java" />
       </list>
     </option>
   </component>
@@ -354,6 +364,10 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="springapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="entities" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -692,7 +706,11 @@
       <created>1386491103182</created>
       <updated>1386491103182</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="added temporary form in charities.jsp">
+      <created>1386595867230</created>
+      <updated>1386595867230</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -769,7 +787,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="added CharitiesProject Classes," />
+    <option name="LAST_COMMIT_MESSAGE" value="added temporary form in charities.jsp" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -796,6 +814,7 @@
     <MESSAGE value="added CharitiesProject Classes" />
     <MESSAGE value="added CharitiesProject Classes,Hibernate" />
     <MESSAGE value="added CharitiesProject Classes," />
+    <MESSAGE value="added temporary form in charities.jsp" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -805,11 +824,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/previousprojects.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="10" selection-start="475" selection-end="475" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/templates/navbar.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state line="2" column="33" selection-start="100" selection-end="100" vertical-scroll-proportion="0.0" />
@@ -903,7 +917,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/charities.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="40" selection-start="645" selection-end="645" vertical-scroll-proportion="0.33144477">
+        <state line="25" column="30" selection-start="1064" selection-end="1064" vertical-scroll-proportion="-9.076923">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/springapp/entities/CharitiesProjectRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="63" selection-start="342" selection-end="342" vertical-scroll-proportion="0.58311343">
           <folding />
         </state>
       </provider>
