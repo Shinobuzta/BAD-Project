@@ -2,14 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a7adc0b2-9e23-4e48-b540-6ba2b6f1b67a" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/springapp/mvc/MainController.java" afterPath="$PROJECT_DIR$/src/main/java/com/springapp/mvc/MainController.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/mvc-dispatcher-servlet.xml" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/mvc-dispatcher-servlet.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="BADProject.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="a7adc0b2-9e23-4e48-b540-6ba2b6f1b67a" time="1386596792947" ignored="false" />
+    <file path="/Dummy.txt" changelist="a7adc0b2-9e23-4e48-b540-6ba2b6f1b67a" time="1386598915841" ignored="false" />
     <file path="/pom.xml" changelist="a7adc0b2-9e23-4e48-b540-6ba2b6f1b67a" time="1385815119119" ignored="false" />
     <file path="/web.xml" changelist="a7adc0b2-9e23-4e48-b540-6ba2b6f1b67a" time="1386596960345" ignored="false" />
     <file path="/HelloController.java" changelist="a7adc0b2-9e23-4e48-b540-6ba2b6f1b67a" time="1385817771137" ignored="false" />
@@ -20,7 +19,7 @@
     <file path="/charities.jsp" changelist="a7adc0b2-9e23-4e48-b540-6ba2b6f1b67a" time="1386595816559" ignored="false" />
     <file path="/projects.jsp" changelist="a7adc0b2-9e23-4e48-b540-6ba2b6f1b67a" time="1385861035680" ignored="false" />
     <file path="/previousprojects.jsp" changelist="a7adc0b2-9e23-4e48-b540-6ba2b6f1b67a" time="1385827880391" ignored="false" />
-    <file path="/MainController.java" changelist="a7adc0b2-9e23-4e48-b540-6ba2b6f1b67a" time="1385970055611" ignored="false" />
+    <file path="/MainController.java" changelist="a7adc0b2-9e23-4e48-b540-6ba2b6f1b67a" time="1386602585653" ignored="false" />
     <file path="/displayer.jsp" changelist="a7adc0b2-9e23-4e48-b540-6ba2b6f1b67a" time="1385828343614" ignored="false" />
     <file path="/a.txt" changelist="a7adc0b2-9e23-4e48-b540-6ba2b6f1b67a" time="1385831245810" ignored="false" />
     <file path="/project.jsp" changelist="a7adc0b2-9e23-4e48-b540-6ba2b6f1b67a" time="1385861357561" ignored="false" />
@@ -29,7 +28,7 @@
     <file path="/persistence.xml" changelist="a7adc0b2-9e23-4e48-b540-6ba2b6f1b67a" time="1386337773613" ignored="false" />
     <file path="/CharitiesProject.java" changelist="a7adc0b2-9e23-4e48-b540-6ba2b6f1b67a" time="1386491036150" ignored="false" />
     <file path="/CharitiesProjectRepository.java" changelist="a7adc0b2-9e23-4e48-b540-6ba2b6f1b67a" time="1386596733226" ignored="false" />
-    <file path="/mvc-dispatcher-servlet.xml" changelist="a7adc0b2-9e23-4e48-b540-6ba2b6f1b67a" time="1386598443522" ignored="false" />
+    <file path="/mvc-dispatcher-servlet.xml" changelist="a7adc0b2-9e23-4e48-b540-6ba2b6f1b67a" time="1386600660979" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -108,10 +107,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MainController.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="MainController.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/springapp/mvc/MainController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="37" selection-start="833" selection-end="833" vertical-scroll-proportion="0.0">
+            <state line="47" column="26" selection-start="1615" selection-end="1615" vertical-scroll-proportion="0.2823219">
               <folding />
             </state>
           </provider>
@@ -126,7 +125,7 @@
             <state />
           </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="0" selection-start="837" selection-end="837" vertical-scroll-proportion="-9.259259">
+            <state line="27" column="23" selection-start="848" selection-end="848" vertical-scroll-proportion="-9.888889">
               <folding />
             </state>
           </provider>
@@ -135,10 +134,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="mvc-dispatcher-servlet.xml" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="mvc-dispatcher-servlet.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/mvc-dispatcher-servlet.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="25" selection-start="1512" selection-end="1512" vertical-scroll-proportion="0.6748634">
+            <state line="27" column="19" selection-start="1553" selection-end="1553" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -171,7 +170,6 @@
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/errorpages/page400.jsp" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/errorpages/page404.jsp" />
-        <option value="$PROJECT_DIR$/src/main/java/com/springapp/mvc/MainController.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/webapp/assets/META-INF/persistence.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/springapp/entities/CharitiesProject.java" />
@@ -179,6 +177,7 @@
         <option value="$PROJECT_DIR$/src/main/java/com/springapp/entities/CharitiesProjectRepository.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/mvc-dispatcher-servlet.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/springapp/mvc/MainController.java" />
       </list>
     </option>
   </component>
@@ -379,6 +378,40 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="springapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mvc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BAD-Project" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BAD-Project" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="springapp" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -725,7 +758,11 @@
       <created>1386596803327</created>
       <updated>1386596803327</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="added registered entity manager factory and transaction management">
+      <created>1386598932294</created>
+      <updated>1386598932294</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -802,7 +839,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="added ChraitiesProjectRepository(Spring Data JPA)" />
+    <option name="LAST_COMMIT_MESSAGE" value="added registered entity manager factory and transaction management" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -831,6 +868,7 @@
     <MESSAGE value="added CharitiesProject Classes," />
     <MESSAGE value="added temporary form in charities.jsp" />
     <MESSAGE value="added ChraitiesProjectRepository(Spring Data JPA)" />
+    <MESSAGE value="added registered entity manager factory and transaction management" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -925,7 +963,7 @@
         <state />
       </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="0" selection-start="837" selection-end="837" vertical-scroll-proportion="-9.259259">
+        <state line="27" column="23" selection-start="848" selection-end="848" vertical-scroll-proportion="-9.888889">
           <folding />
         </state>
       </provider>
@@ -933,16 +971,16 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/springapp/mvc/MainController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/mvc-dispatcher-servlet.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="37" selection-start="833" selection-end="833" vertical-scroll-proportion="0.0">
+        <state line="27" column="19" selection-start="1553" selection-end="1553" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/mvc-dispatcher-servlet.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/springapp/mvc/MainController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="25" selection-start="1512" selection-end="1512" vertical-scroll-proportion="0.6748634">
+        <state line="47" column="26" selection-start="1615" selection-end="1615" vertical-scroll-proportion="0.2823219">
           <folding />
         </state>
       </provider>
