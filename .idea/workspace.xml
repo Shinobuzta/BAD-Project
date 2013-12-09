@@ -3,12 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="a7adc0b2-9e23-4e48-b540-6ba2b6f1b67a" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/springapp/mvc/MainController.java" afterPath="$PROJECT_DIR$/src/main/java/com/springapp/mvc/MainController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/mvc-dispatcher-servlet.xml" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/mvc-dispatcher-servlet.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="BADProject.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="a7adc0b2-9e23-4e48-b540-6ba2b6f1b67a" time="1386602833157" ignored="false" />
+    <file path="/Dummy.txt" changelist="a7adc0b2-9e23-4e48-b540-6ba2b6f1b67a" time="1386602856452" ignored="false" />
     <file path="/pom.xml" changelist="a7adc0b2-9e23-4e48-b540-6ba2b6f1b67a" time="1385815119119" ignored="false" />
     <file path="/web.xml" changelist="a7adc0b2-9e23-4e48-b540-6ba2b6f1b67a" time="1386596960345" ignored="false" />
     <file path="/HelloController.java" changelist="a7adc0b2-9e23-4e48-b540-6ba2b6f1b67a" time="1385817771137" ignored="false" />
@@ -19,7 +18,7 @@
     <file path="/charities.jsp" changelist="a7adc0b2-9e23-4e48-b540-6ba2b6f1b67a" time="1386595816559" ignored="false" />
     <file path="/projects.jsp" changelist="a7adc0b2-9e23-4e48-b540-6ba2b6f1b67a" time="1385861035680" ignored="false" />
     <file path="/previousprojects.jsp" changelist="a7adc0b2-9e23-4e48-b540-6ba2b6f1b67a" time="1385827880391" ignored="false" />
-    <file path="/MainController.java" changelist="a7adc0b2-9e23-4e48-b540-6ba2b6f1b67a" time="1386602585653" ignored="false" />
+    <file path="/MainController.java" changelist="a7adc0b2-9e23-4e48-b540-6ba2b6f1b67a" time="1386603007318" ignored="false" />
     <file path="/displayer.jsp" changelist="a7adc0b2-9e23-4e48-b540-6ba2b6f1b67a" time="1385828343614" ignored="false" />
     <file path="/a.txt" changelist="a7adc0b2-9e23-4e48-b540-6ba2b6f1b67a" time="1385831245810" ignored="false" />
     <file path="/project.jsp" changelist="a7adc0b2-9e23-4e48-b540-6ba2b6f1b67a" time="1385861357561" ignored="false" />
@@ -110,7 +109,7 @@
       <file leaf-file-name="MainController.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/springapp/mvc/MainController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="55" column="42" selection-start="1840" selection-end="1840" vertical-scroll-proportion="0.64116096">
+            <state line="18" column="6" selection-start="661" selection-end="661" vertical-scroll-proportion="0.40369394">
               <folding />
             </state>
           </provider>
@@ -766,7 +765,11 @@
       <created>1386602852670</created>
       <updated>1386602852670</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="added methods in main controller&#10;">
+      <created>1386602870864</created>
+      <updated>1386602870864</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -985,7 +988,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/springapp/mvc/MainController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="55" column="42" selection-start="1840" selection-end="1840" vertical-scroll-proportion="0.64116096">
+        <state line="18" column="6" selection-start="661" selection-end="661" vertical-scroll-proportion="0.40369394">
           <folding />
         </state>
       </provider>
