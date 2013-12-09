@@ -13,6 +13,20 @@
     <div class="container">
         <br><br>
         <h1>charities</h1>
+        <!---Temporary form-->
+        <form role="form" method="post" action="charities/addProject">
+                  <div class="form-group">
+                      <label for="ProjectName"></label>
+                      <input type="text" id="ProjectName" class="form-control" name="ProjectName"/>
+                  </div>
+                <div class="form-group">
+                         <label for="ProjectDescription"></label>
+                         <input type="text" id="ProjectDescription" class="form-control" name="ProjectDescription"/>
+                 </div>
+            <button class="btn btn-default" type="submit">ADD</button>
+        </form>
+
+
     </div>
     <script src="/assets/js/jquery.js"></script>
     <script src="/assets/js/bootstrap.min.js"></script>
