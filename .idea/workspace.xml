@@ -8,7 +8,7 @@
     </list>
     <ignored path="BADProject.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="a7adc0b2-9e23-4e48-b540-6ba2b6f1b67a" time="1386598915841" ignored="false" />
+    <file path="/Dummy.txt" changelist="a7adc0b2-9e23-4e48-b540-6ba2b6f1b67a" time="1386602833157" ignored="false" />
     <file path="/pom.xml" changelist="a7adc0b2-9e23-4e48-b540-6ba2b6f1b67a" time="1385815119119" ignored="false" />
     <file path="/web.xml" changelist="a7adc0b2-9e23-4e48-b540-6ba2b6f1b67a" time="1386596960345" ignored="false" />
     <file path="/HelloController.java" changelist="a7adc0b2-9e23-4e48-b540-6ba2b6f1b67a" time="1385817771137" ignored="false" />
@@ -110,7 +110,7 @@
       <file leaf-file-name="MainController.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/springapp/mvc/MainController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="47" column="26" selection-start="1615" selection-end="1615" vertical-scroll-proportion="0.2823219">
+            <state line="55" column="42" selection-start="1840" selection-end="1840" vertical-scroll-proportion="0.64116096">
               <folding />
             </state>
           </provider>
@@ -762,7 +762,11 @@
       <created>1386598932294</created>
       <updated>1386598932294</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="added methods in main controller&#10;">
+      <created>1386602852670</created>
+      <updated>1386602852670</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -839,7 +843,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="added registered entity manager factory and transaction management" />
+    <option name="LAST_COMMIT_MESSAGE" value="added methods in main controller&#10;" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -869,6 +873,7 @@
     <MESSAGE value="added temporary form in charities.jsp" />
     <MESSAGE value="added ChraitiesProjectRepository(Spring Data JPA)" />
     <MESSAGE value="added registered entity manager factory and transaction management" />
+    <MESSAGE value="added methods in main controller&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -980,7 +985,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/springapp/mvc/MainController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="47" column="26" selection-start="1615" selection-end="1615" vertical-scroll-proportion="0.2823219">
+        <state line="55" column="42" selection-start="1840" selection-end="1840" vertical-scroll-proportion="0.64116096">
           <folding />
         </state>
       </provider>
