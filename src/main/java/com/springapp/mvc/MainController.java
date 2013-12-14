@@ -12,6 +12,8 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 
+import java.util.List;
+
 @Controller
 @RequestMapping("/")
 public class MainController {
@@ -31,6 +33,8 @@ public class MainController {
 
     @RequestMapping(value = "projects", method = RequestMethod.GET)
     public String showProjects(ModelMap model){
+        List<CharitiesProject > projects=charitiesProjectRepository.viewAll();
+        model.addAttribute("projects",projects);
         return "projects";
     }
 
@@ -55,8 +59,6 @@ public class MainController {
         return "errorpages/page400";
     }
 
-    @RequestMapping(value="charities/addProject",method = RequestMethod.POST)
-    public String addProject(@ModelAttribute("project")CharitiesProject project,BindingResult result){
-        charitiesProjectRepository.save(project);
-    }
+//    @RequestMapping(value="charities/addProject",method = RequestMethod.POST)
+
 }

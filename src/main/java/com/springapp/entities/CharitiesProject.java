@@ -8,8 +8,13 @@ import javax.persistence.*;
  * Time: 10:53 PM
  * To change this template use File | Settings | File Templates.
  */
-@Entity(name="charitiesProject")
+@Entity
+@Table(name="project")
 public class CharitiesProject {
+    @Id
+    @GeneratedValue
+    private Integer id;
+
     @Basic
      private String projectName;
     @Basic
