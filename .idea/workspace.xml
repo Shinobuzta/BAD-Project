@@ -1,12 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a7adc0b2-9e23-4e48-b540-6ba2b6f1b67a" name="Default" comment="">
+    <list default="true" id="a7adc0b2-9e23-4e48-b540-6ba2b6f1b67a" name="Default" comment="working retrieving projects,added charities directory,added charities dashboard,added index.jsp">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/charities/dashboard.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/charities/index.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/springapp/entities/CharitiesProject.java" afterPath="$PROJECT_DIR$/src/main/java/com/springapp/entities/CharitiesProject.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/charities.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/charities.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/projects.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/projects.jsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="BADProject.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="a7adc0b2-9e23-4e48-b540-6ba2b6f1b67a" time="1387016873654" ignored="false" />
+    <file path="/Dummy.txt" changelist="a7adc0b2-9e23-4e48-b540-6ba2b6f1b67a" time="1387019874346" ignored="false" />
     <file path="/pom.xml" changelist="a7adc0b2-9e23-4e48-b540-6ba2b6f1b67a" time="1386993548408" ignored="false" />
     <file path="/web.xml" changelist="a7adc0b2-9e23-4e48-b540-6ba2b6f1b67a" time="1386596960345" ignored="false" />
     <file path="/HelloController.java" changelist="a7adc0b2-9e23-4e48-b540-6ba2b6f1b67a" time="1385817771137" ignored="false" />
@@ -15,7 +20,7 @@
     <file path="/dummy.xml" changelist="a7adc0b2-9e23-4e48-b540-6ba2b6f1b67a" time="1386993080324" ignored="false" />
     <file path="/navbar.jsp" changelist="a7adc0b2-9e23-4e48-b540-6ba2b6f1b67a" time="1385827924225" ignored="false" />
     <file path="/charities.jsp" changelist="a7adc0b2-9e23-4e48-b540-6ba2b6f1b67a" time="1386595816559" ignored="false" />
-    <file path="/projects.jsp" changelist="a7adc0b2-9e23-4e48-b540-6ba2b6f1b67a" time="1387009825872" ignored="false" />
+    <file path="/projects.jsp" changelist="a7adc0b2-9e23-4e48-b540-6ba2b6f1b67a" time="1387019349119" ignored="false" />
     <file path="/previousprojects.jsp" changelist="a7adc0b2-9e23-4e48-b540-6ba2b6f1b67a" time="1385827880391" ignored="false" />
     <file path="/MainController.java" changelist="a7adc0b2-9e23-4e48-b540-6ba2b6f1b67a" time="1387009197258" ignored="false" />
     <file path="/displayer.jsp" changelist="a7adc0b2-9e23-4e48-b540-6ba2b6f1b67a" time="1385828343614" ignored="false" />
@@ -24,7 +29,7 @@
     <file path="/page404.jsp" changelist="a7adc0b2-9e23-4e48-b540-6ba2b6f1b67a" time="1385969887526" ignored="false" />
     <file path="/README.md" changelist="a7adc0b2-9e23-4e48-b540-6ba2b6f1b67a" time="1385969501558" ignored="false" />
     <file path="/persistence.xml" changelist="a7adc0b2-9e23-4e48-b540-6ba2b6f1b67a" time="1386685144238" ignored="false" />
-    <file path="/CharitiesProject.java" changelist="a7adc0b2-9e23-4e48-b540-6ba2b6f1b67a" time="1387016376277" ignored="false" />
+    <file path="/CharitiesProject.java" changelist="a7adc0b2-9e23-4e48-b540-6ba2b6f1b67a" time="1387018801646" ignored="false" />
     <file path="/CharitiesProjectRepository.java" changelist="a7adc0b2-9e23-4e48-b540-6ba2b6f1b67a" time="1387007224969" ignored="false" />
     <file path="/mvc-dispatcher-servlet.xml" changelist="a7adc0b2-9e23-4e48-b540-6ba2b6f1b67a" time="1387015042765" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -97,10 +102,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="mvc-dispatcher-servlet.xml" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="mvc-dispatcher-servlet.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/mvc-dispatcher-servlet.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="30" column="44" selection-start="1860" selection-end="1860" vertical-scroll-proportion="0.95454544">
+            <state line="33" column="24" selection-start="1935" selection-end="1935" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -109,7 +114,7 @@
       <file leaf-file-name="CharitiesProject.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/springapp/entities/CharitiesProject.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="36" column="34" selection-start="758" selection-end="758" vertical-scroll-proportion="0.0">
+            <state line="14" column="18" selection-start="305" selection-end="305" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -118,7 +123,7 @@
       <file leaf-file-name="CharitiesProjectRepository.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/springapp/entities/CharitiesProjectRepository.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="28" column="40" selection-start="860" selection-end="860" vertical-scroll-proportion="0.0">
+            <state line="22" column="35" selection-start="607" selection-end="607" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#470#513#0" expanded="true" />
@@ -139,7 +144,34 @@
       <file leaf-file-name="projects.jsp" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/projects.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="52" selection-start="520" selection-end="520" vertical-scroll-proportion="-8.5">
+            <state line="17" column="18" selection-start="697" selection-end="697" vertical-scroll-proportion="-11.115385">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="charities.jsp" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/charities.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="11" column="16" selection-start="387" selection-end="387" vertical-scroll-proportion="-7.1923075">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="dashboard.jsp" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/charities/dashboard.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="10" column="10" selection-start="240" selection-end="240" vertical-scroll-proportion="-6.5384617">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.jsp" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/charities/index.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="11" column="42" selection-start="257" selection-end="257" vertical-scroll-proportion="0.55">
               <folding />
             </state>
           </provider>
@@ -191,22 +223,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/displayer.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/project.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/templates/page404.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/errors/page404.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/errorpages/page400.jsp" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/errorpages/page404.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/charities.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/assets/META-INF/persistence.xml" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/springapp/entities/CharitiesProjectRepository.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/springapp/mvc/MainController.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/projects.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/mvc-dispatcher-servlet.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/springapp/entities/CharitiesProject.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/projects.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/charities.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/charities/dashboard.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/charities/index.jsp" />
       </list>
     </option>
   </component>
@@ -361,6 +393,40 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="pages" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BAD-Project" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BAD-Project" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WEB-INF" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pages" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="charities" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -815,7 +881,11 @@
       <created>1387016905982</created>
       <updated>1387016905982</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="added mysql connector,remove spring data and hyper sql,added spring orm">
+      <created>1387016940668</created>
+      <updated>1387016940668</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -832,7 +902,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.328" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32749563" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3257443" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24875125" sideWeight="0.44341803" order="3" side_tool="true" content_ui="tabs" />
@@ -892,7 +962,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="added mysql connector,remove spring data,added spring orm" />
+    <option name="LAST_COMMIT_MESSAGE" value="added mysql connector,remove spring data and hyper sql,added spring orm" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -924,6 +994,7 @@
     <MESSAGE value="added registered entity manager factory and transaction management" />
     <MESSAGE value="added methods in main controller&#10;" />
     <MESSAGE value="added mysql connector,remove spring data,added spring orm" />
+    <MESSAGE value="added mysql connector,remove spring data and hyper sql,added spring orm" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -933,27 +1004,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
-      <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorProvider">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="26" selection-start="718" selection-end="718" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorReferencesProvider">
-        <state />
-      </provider>
-      <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleGeneralEditorProvider">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/project.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="47" selection-start="430" selection-end="430" vertical-scroll-proportion="-6.875" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/templates/skeleton.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state line="9" column="0" selection-start="340" selection-end="340" vertical-scroll-proportion="-5.625" />
@@ -984,11 +1034,6 @@
         <state line="12" column="19" selection-start="453" selection-end="453" vertical-scroll-proportion="0.4228395" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/charities.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
       <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorProvider">
         <state />
@@ -1012,13 +1057,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/projects.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="52" selection-start="520" selection-end="520" vertical-scroll-proportion="-8.5">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/springapp/mvc/MainController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="30" column="34" selection-start="1069" selection-end="1069" vertical-scroll-proportion="-10.88">
@@ -1028,7 +1066,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/springapp/entities/CharitiesProjectRepository.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="40" selection-start="860" selection-end="860" vertical-scroll-proportion="0.0">
+        <state line="22" column="35" selection-start="607" selection-end="607" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#470#513#0" expanded="true" />
@@ -1038,14 +1076,42 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/springapp/entities/CharitiesProject.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="34" selection-start="758" selection-end="758" vertical-scroll-proportion="0.0">
+        <state line="14" column="18" selection-start="305" selection-end="305" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/mvc-dispatcher-servlet.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="44" selection-start="1860" selection-end="1860" vertical-scroll-proportion="0.95454544">
+        <state line="33" column="24" selection-start="1935" selection-end="1935" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/projects.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="18" selection-start="697" selection-end="697" vertical-scroll-proportion="-11.115385">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/charities.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="16" selection-start="387" selection-end="387" vertical-scroll-proportion="-7.1923075">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/charities/dashboard.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="10" selection-start="240" selection-end="240" vertical-scroll-proportion="-6.5384617">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/charities/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="42" selection-start="257" selection-end="257" vertical-scroll-proportion="0.55">
           <folding />
         </state>
       </provider>

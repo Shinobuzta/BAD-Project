@@ -13,7 +13,7 @@
         <br><br>
         <h1>projects</h1>
                        <c:forEach items="${projects}" var="project">
-                             <li>${project.name}</li>
+                             <li>${project.projectName}</li>
                        </c:forEach>
     </div>
     <script src="/assets/js/jquery.js"></script>

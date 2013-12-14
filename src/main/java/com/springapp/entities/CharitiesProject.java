@@ -20,7 +20,7 @@ public class CharitiesProject {
     @Basic
      private String projectDetails;
     @Basic
-     private Double projectBudgetNeed;
+     private Double projectBudgetNeeded;
 
     public String getProjectName() {
         return projectName;
@@ -39,11 +39,11 @@ public class CharitiesProject {
     }
 
     public Double getProjectBudgetNeed() {
-        return projectBudgetNeed;
+        return projectBudgetNeeded;
     }
 
     public void setProjectBudgetNeed(Double projectBudgetNeed) {
-        this.projectBudgetNeed = projectBudgetNeed;
+        this.projectBudgetNeeded = projectBudgetNeed;
     }
 
 
