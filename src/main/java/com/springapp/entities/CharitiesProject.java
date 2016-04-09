@@ -46,6 +46,9 @@ public class CharitiesProject {
         this.projectBudgetNeeded = projectBudgetNeed;
     }
 
+    public void nonSense(){
+    	//added to practice git
+    }
 
 
 
