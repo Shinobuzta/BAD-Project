@@ -49,6 +49,7 @@ public class CharitiesProject {
     public void nonSense(){
     	//added to practice git
     	int nonsense = 0;
+    	String nonsense2 = "";
     }
 
 
