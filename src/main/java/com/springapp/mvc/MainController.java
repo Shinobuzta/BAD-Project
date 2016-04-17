@@ -61,4 +61,11 @@ public class MainController {
 
 //    @RequestMapping(value="charities/addProject",method = RequestMethod.POST)
 
+    /**
+     *
+     *test commit and push - adrian using intellij
+     */
+    @RequestMapping(value = "adrian", method = RequestMethod.GET)
+    public String show400Page(ModelMap model){ return "errorpages/page400";}
+
 }

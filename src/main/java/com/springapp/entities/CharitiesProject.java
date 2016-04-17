@@ -50,8 +50,6 @@ public class CharitiesProject {
     	//added to practice git
     	int nonsense = 0;
     	String nonsense2 = "";
+        boolean nonesense3 = false;
     }
-
-
-
 }
