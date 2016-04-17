@@ -51,5 +51,6 @@ public class CharitiesProject {
     	int nonsense = 0;
     	String nonsense2 = "";
         boolean nonesense3 = false;
+        boolean nonsense4 = true;
     }
 }
